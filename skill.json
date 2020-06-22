@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Learn some facts about animals and plants.",
+          "examplePhrases": [
+            "Alexa, ask living things to give me an animal fact",
+            "Alexa, ask living things to give me a plant fact"
+          ],
+          "keywords": [
+            "animal",
+            "plants",
+            "facts",
+            "trivia"
+          ],
+          "name": "Living things",
+          "description": "Ask for animals or plants, and learn about their.\n\nTo start, just say:\n\n\"Alexa, ask living things to give me an animal fact\"\n\"Alexa, ask living things to give me a plant fact\"\n\"Alexa, ask living things to give me a fact\"\n\nAt anytime, you can stop by saying \"Alexa, stop\"",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Alexa, ask living things to give me an animal fact\nAlexa, ask living things to give me a plant fact",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "ES"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:926679121304:function:123fb98b-357c-4ec6-8cf1-e32294c7fdea:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

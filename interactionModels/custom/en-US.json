@@ -1,0 +1,76 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "living things",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "slots": [
+            {
+              "name": "living_beigns",
+              "type": "living_beigns"
+            }
+          ],
+          "samples": [
+            "give me a {living_beigns} fact",
+            "give me an {living_beigns} fact",
+            "give me a fact"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "plant_fact",
+              "name": {
+                "value": "plant",
+                "synonyms": [
+                  "a plant",
+                  "plants"
+                ]
+              }
+            },
+            {
+              "id": "animal_fact",
+              "name": {
+                "value": "animal",
+                "synonyms": [
+                  "an animal",
+                  "animals"
+                ]
+              }
+            }
+          ],
+          "name": "living_beigns"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "24"
+}
